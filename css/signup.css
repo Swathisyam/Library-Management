@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.SignupForm{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    text-align: center;
+    /* box-sizing: border-box; */
+    width: 700px;
+     margin-bottom: 10%; 
+    margin-top: 5%; 
+    /* float: leftt; */
+    margin-left: 28%;
+    padding: 50px;
+    padding-top: 30px;
+    margin-top: 100px;
+    color:black;
+    /* border-radius: 500px; */
+    background-image: linear-gradient(to right, #FFDDE2FF,#FAA094FF,#9ED9CCFF,#008C76FF);
+    border: outset 8px;
+    
+}
+/* @keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  } */
+
+input[type=text],input[type=password]
+{
+    /* text-align: center; */
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0,0,0,0.10);
+    outline: none;
+    border: none;
+    border-bottom: 1px white;
+    color:black;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bolder;
+}
+span{
+    font-size: x-small;
+}
+input[type=submit]
+{
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    background:     #003366;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+input[type=submit]:hover
+{
+    background:gray;
+    opacity: 0.7;
+
+}
+footer {
+    position: fixed;
+    margin-top :10%;
+    height: 3em;
+    padding-top: 9px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    text-align: center;
+   
+  }
